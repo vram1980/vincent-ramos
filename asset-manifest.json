@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/vincent-ramos/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/vincent-ramos/static/js/main.2afde363.chunk.js",
-    "main.js.map": "/vincent-ramos/static/js/main.2afde363.chunk.js.map",
+    "main.js": "/vincent-ramos/static/js/main.00b6b71f.chunk.js",
+    "main.js.map": "/vincent-ramos/static/js/main.00b6b71f.chunk.js.map",
     "runtime-main.js": "/vincent-ramos/static/js/runtime-main.b60936ea.js",
     "runtime-main.js.map": "/vincent-ramos/static/js/runtime-main.b60936ea.js.map",
-    "static/js/2.aab6ecca.chunk.js": "/vincent-ramos/static/js/2.aab6ecca.chunk.js",
-    "static/js/2.aab6ecca.chunk.js.map": "/vincent-ramos/static/js/2.aab6ecca.chunk.js.map",
+    "static/js/2.7c71571b.chunk.js": "/vincent-ramos/static/js/2.7c71571b.chunk.js",
+    "static/js/2.7c71571b.chunk.js.map": "/vincent-ramos/static/js/2.7c71571b.chunk.js.map",
     "index.html": "/vincent-ramos/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/vincent-ramos/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.aab6ecca.chunk.js.LICENSE.txt": "/vincent-ramos/static/js/2.aab6ecca.chunk.js.LICENSE.txt"
+    "static/js/2.7c71571b.chunk.js.LICENSE.txt": "/vincent-ramos/static/js/2.7c71571b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b60936ea.js",
-    "static/js/2.aab6ecca.chunk.js",
+    "static/js/2.7c71571b.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.2afde363.chunk.js"
+    "static/js/main.00b6b71f.chunk.js"
   ]
 }
