@@ -3,22 +3,24 @@ import { NavLink } from "react-router-dom";
 
 function Navigation() {
   return (
-      <div className="container-fluid">
+      <div className="container-fluid" style={{ position: "fixed", top: "0" }}>
         <div className="row">
             <div className="col-6">
-                <NavLink to="/">Logo</NavLink>
+                <NavLink to="/">
+                    <svg id="Layer_1" className="mt-4  ml-4" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92.57 115.16" style={{height: "68px" }}><defs><style>{`.cls-1{fill:#fff;}`}</style></defs><title>logo</title><path class="cls-1" d="M290.83,363.89l-15.16,81.42-13.2-69.06a58.09,58.09,0,0,0-11.17,11.84l15.32,80.18c1.39.94,2.82,1.81,4.29,2.64a60,60,0,0,0,10.54,4.64c.64.22,1.29.41,1.94.61l21-112.78A60.41,60.41,0,0,0,290.83,363.89Z" transform="translate(-251.3 -363.21)"/><path class="cls-1" d="M323.28,420.26l10.08-13.42,8.55-11.41-7.13-12.38-6.36-11a59.37,59.37,0,0,0-5.42-3,60.73,60.73,0,0,0-12.62-4.46l-.34,1.81-4.35,23.37L302,409.57l-4.25,22.82-5.42,29.1-3,16.36c.41,0,.83.12,1.25.16a61,61,0,0,0,12.15.11l7.54-40.47,4.49-6,19.54,33.92a58.78,58.78,0,0,0,9.61-9.57ZM320.21,384l6,10.43-10.07,13.43-.29-.5Z" transform="translate(-251.3 -363.21)"/></svg>
+                </NavLink>
             </div>
             <div className="col-6 text-right">
-                <NavLink to="/" className="btn btn-outline-primary">
+                <NavLink to="/" className="btn">
                     Home
                     <span className="sr-only">(current)</span>
                 </NavLink>
 
-                <NavLink to="/about" className="btn btn-outline-primary">
+                <NavLink to="/about" className="btn">
                     About
                 </NavLink>
 
-                <NavLink to="/contact" className="btn btn-outline-primary">
+                <NavLink to="/contact" className="btn">
                     Contact
                 </NavLink>
             </div>
