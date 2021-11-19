@@ -36,7 +36,7 @@ function Navigation() {
                 </NavLink>
 
                 <NavLink to="/contact" className="blob-btn  text-capitalize">
-                    Contact
+                    Resume
                     <span class="blob-btn__inner">
                     <span class="blob-btn__blobs">
                         <span class="blob-btn__blob"></span>
