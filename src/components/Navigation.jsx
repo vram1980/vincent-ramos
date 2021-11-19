@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 function Navigation() {
   return (
-    <div className="container-fluid" style={{ position: "fixed", top: "0" }}>
+    <div className="container-fluid" style={{ position: "absolute", top: "0" }}>
         <div className="row">
             <div className="col-6">
                 <NavLink to="/">
