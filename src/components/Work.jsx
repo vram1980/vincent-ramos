@@ -4,7 +4,7 @@ function Work() {
     return (
         <span>
         <h2 class="font-weight-bold  display-4  my-5  pb-5  pt-3  text-center" style={{ letterSpacing: "-2px", lineHeight: "6rem", color: "#535353" }}>Featured Projects</h2>
-        <div class="row align-items-center my-5">
+        <div class="row align-items-center my-5  pb-5">
             <div class="col-lg-4  mr-lg-5  position-relative">
                 <svg
                     xmlns="http://www.w3.org/2000/svg" 
@@ -53,24 +53,40 @@ function Work() {
                 </svg>
             </div>
             <div class="col-lg-6  ml-lg-5">
-                <h2 className="font-weight-bold" style={{color: 'rgb(83, 83, 83)'}}>Bluebeam Global Responsive Website</h2>
-                <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard dummy text
-                    ever since the 1500s, when an unknown printer took a galley of
-                    type and scrambled it to make a type specimen book.
+                <h2 className="font-weight-bold  mb-4" style={{color: 'rgb(83, 83, 83)'}}>Bluebeam Global Responsive Website</h2>
+                <p className="mb-5">
+                    Senior web developer for Bluebeam's <b className="stick-green">website and webstore</b>. I was tasked maintain and develop new <b className="stick-green">pages and features</b> for marketing pushes using our in-house <b className="stick-green">design system</b>. Key projects included a re-skin of our <b className="stick-green">web store</b> using our internal design system.
                 </p>
+                <a href="https://bluebeam.com" className="blob-btn  dark  text-capitalize" target="_blank" rel="noreferrer">
+                    Launch
+                    <span class="blob-btn__inner">
+                    <span class="blob-btn__blobs">
+                        <span class="blob-btn__blob"></span>
+                        <span class="blob-btn__blob"></span>
+                        <span class="blob-btn__blob"></span>
+                        <span class="blob-btn__blob"></span>
+                    </span>
+                    </span>
+                </a>
             </div>
         </div>
         <div class="row align-items-center my-5">
             <div class="col-lg-6">
-                <h2 className="font-weight-bold" style={{color: 'rgb(83, 83, 83)'}}>Media Temple Website &amp; Account Center</h2>
-                <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard dummy text
-                    ever since the 1500s, when an unknown printer took a galley of
-                    type and scrambled it to make a type specimen book.
+                <h2 className="font-weight-bold  mb-4" style={{color: 'rgb(83, 83, 83)'}}>Media Temple Website &amp; Account Center</h2>
+                <p className="mb-5">
+                    Principle front-end developer for Media Temple tasked to maintain and develop new features for the customer account center and marketing site. Some key projects included a <b className="stick-green">product wizard</b>, <b className="stick-green">one-click install</b> interface for popular web apps such as <b className="stick-green">WordPress</b> and <b className="stick-green">Drupal</b> and an inline <b className="stick-green">file editing web app</b>.
                 </p>
+                <a href="https://mediatemple.net" className="blob-btn  dark  text-capitalize" target="_blank" rel="noreferrer">
+                    Launch
+                    <span class="blob-btn__inner">
+                    <span class="blob-btn__blobs">
+                        <span class="blob-btn__blob"></span>
+                        <span class="blob-btn__blob"></span>
+                        <span class="blob-btn__blob"></span>
+                        <span class="blob-btn__blob"></span>
+                    </span>
+                    </span>
+                </a>
             </div>
             <div class="col-lg-4">
                 <svg

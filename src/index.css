@@ -18,6 +18,10 @@ code {
 	animation: HeroGradient 10s ease infinite;
 }
 
+.stick-green {
+  color: #1eb450;
+}
+
 @keyframes HeroGradient {
 	0% {
 		background-position: 0% 50%;
@@ -28,6 +32,9 @@ code {
 	100% {
 		background-position: 0% 50%;
 	}
+}
+.blob-btn.dark {
+  color: #1eb450;
 }
 
 .blob-btn {
@@ -46,6 +53,9 @@ code {
     transition: color 0.5s;
     cursor: pointer;
     border-radius: 30px;
+}
+.blob-btn.dark:before {
+  border: 2px solid #1eb450;
 }
 .blob-btn:before {
   content: "";
@@ -69,8 +79,11 @@ code {
     transition: all 0.3s 0.2s;
     border-radius: 30px;
 }
+.blob-btn.dark:hover, .blob-btn.dark.active {
+  color: #fff;
+}
 .blob-btn:hover, .blob-btn.active {
-  color: rgb(119 119 119);
+  color: rgb(119, 119, 119);
   border-radius: 30px;
   text-decoration: none;
 }
@@ -98,6 +111,9 @@ code {
   display: block;
   height: 100%;
   filter: url('#goo');
+}
+.dark .blob-btn__blob {
+  background: #1eb450;
 }
 .blob-btn__blob {
   position: absolute;
