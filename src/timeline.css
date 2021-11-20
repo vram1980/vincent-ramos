@@ -34,18 +34,18 @@
     left: 50%;
     background: white;
   
-    margin-left:-25px;
+    margin-left:-23px;
     border-radius: 50%;
     z-index: 999;
   }
-  .wrapper > .detail-wrapper:not(:nth-child(even)) {
+  .wrapper > .detail-wrapper {
     justify-content: left;
     padding-right: 100px; 
   }
-  .wrapper > .detail-wrapper:nth-child(even) {
+  /* .wrapper > .detail-wrapper:nth-child(even) {
     justify-content: right;
     padding-left: 100px;
-  }
+  } */
   
   summary {
     font-size: 22px;
