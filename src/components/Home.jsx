@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="home" style={{marginBottom: '200px'}}>
       <div class="container">
-        <Work title={"Bluebeam"} />
+        <Work />
       </div>
     </div>
   );

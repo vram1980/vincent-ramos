@@ -3,7 +3,7 @@ import React from "react";
 function Work() {
     return (
         <span>
-        <h2 class="font-weight-bold  display-4  my-5  pb-3  pt-3  text-center" style={{ letterSpacing: "-2px", lineHeight: "6rem", color: "#535353" }}>Featured Projects</h2>
+        <h2 class="font-weight-bold  h1  my-5  pb-3  pt-3  text-center" style={{ letterSpacing: "-2px", lineHeight: "6rem", color: "#535353" }}>Featured Projects</h2>
         <div class="row align-items-center my-5  pb-5">
             <div class="col-lg-4  mr-lg-5  position-relative">
                 <svg

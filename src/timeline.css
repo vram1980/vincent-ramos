@@ -1,0 +1,62 @@
+.wrapper {
+    margin: 0 auto;
+    position: relative;  /* for position absolute to work*/
+  }
+  .detail-wrapper {
+    width: 100%;
+    margin-bottom: 100px;
+    
+    display: flex; 
+  }
+  details {
+    width: 50%;
+  }
+  .detail-wrapper::before{
+    content: "";
+    width: 3px;
+    background-color: #d9d9d9;
+  
+    left:50%;
+    position: absolute;
+    top:0;
+    bottom:0;
+  }
+  .detail-wrapper::after{
+    font-family: Font Awesome\ 5 Free;
+    content: "\f058";
+    font-size: 40px;
+    color: #23b5af;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+  
+    position: absolute;
+    left: 50%;
+    background: white;
+  
+    margin-left:-25px;
+    border-radius: 50%;
+    z-index: 999;
+  }
+  .wrapper > .detail-wrapper:not(:nth-child(even)) {
+    justify-content: left;
+    padding-right: 100px; 
+  }
+  .wrapper > .detail-wrapper:nth-child(even) {
+    justify-content: right;
+    padding-left: 100px;
+  }
+  
+  summary {
+    font-size: 22px;
+    font-weight: 600;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+  details[open] summary  {margin-bottom: 25px; }
