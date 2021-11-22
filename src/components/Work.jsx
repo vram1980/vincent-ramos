@@ -208,9 +208,7 @@ function Work() {
                         </span>
                         </span>
                     </a>
-                </div>
-            </div>
-            <div className="row  justify-content-center  text-center">
+                </div>            
                 <div className="col-md-4  col-lg-4 position-relative  pb-5  pb-md-5  pb-lg-5">
                     <svg id="10015.io" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" className="mb-3  position-relative" style={{zIndex: '2'}}>
                         <defs>

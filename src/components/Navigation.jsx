@@ -24,7 +24,7 @@ function Navigation() {
             </div>
             <div className="col-md-8  col-lg-6 text-right  pt-4  pt-md-5  pr-md-4  pt-lg-5  pr-lg-5">
                 {navData.map((item) => (
-                    <NavLink to={item.url} className="blob-btn  mr-3  text-capitalize">
+                    <NavLink key={item.id} to={item.url} className="blob-btn  mr-3  text-capitalize">
                         {item.label}
                         <span class="blob-btn__inner">
                         <span class="blob-btn__blobs">
