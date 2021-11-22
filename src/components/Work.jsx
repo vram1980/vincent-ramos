@@ -10,13 +10,13 @@ const mt = require('./images/mt.jpg').default;
 function Work() {
     return (
         <span>
-        <h2 class="font-weight-bold  h1  my-5  pb-3  pt-3  text-center" style={{ letterSpacing: "-2px", lineHeight: "6rem", color: "#535353" }}>Featured Projects</h2>
-        <div class="row align-items-center my-5  pb-5">
-            <div class="col-lg-4  mr-lg-5  position-relative">
+        <h2 class="font-weight-bold  h1  my-md-4  py-md-4  my-lg-5  py-lg-3  text-center" style={{ letterSpacing: "-2px", lineHeight: "6rem", color: "#535353" }}>Featured Projects</h2>
+        <div class="row align-items-center  my-5  pb-5">
+            <div class="col-md-6  col-lg-6  position-relative d-none  d-md-block">
                 <svg
                     xmlns="http://www.w3.org/2000/svg" 
                     version="1.1" 
-                    width="430px" 
+                    width="100%" 
                     height="430px" 
                     viewBox="0 0 480 480"
                     className="position-absolute" style={{zIndex: '1', top: '-13px', left: '3px'}}>
@@ -34,7 +34,7 @@ function Work() {
                 </svg>
                 <svg xmlns="http://www.w3.org/2000/svg" 
                 version="1.1" 
-                width="400px" 
+                width="100%" 
                 height="400px" 
                 viewBox="0 0 480 480"
                 className="position-relative" style={{zIndex: '2'}}>
@@ -58,7 +58,7 @@ function Work() {
                 <image x="0" y="-10%" width="150%" height="150%" clip-path="url(#blobWrap)" xlinkHref={bb} preserveAspectRatio="xMidYMid slice"></image>
                 </svg>
             </div>
-            <div class="col-lg-6  ml-lg-5">
+            <div class="col-md-6  col-lg-6">
                 <h2 className="font-weight-bold  mb-4" style={{color: 'rgb(83, 83, 83)'}}>Bluebeam Global Responsive Website</h2>
                 <p className="mb-5">
                     Senior web developer for Bluebeam's <b className="stick-green">website and webstore</b>. I was tasked maintain and develop new <b className="stick-green">pages and features</b> for marketing pushes using our in-house <b className="stick-green">design system</b>. Key projects included a re-skin of our <b className="stick-green">web store</b> using our internal design system.
@@ -77,7 +77,7 @@ function Work() {
             </div>
         </div>
         <div class="row align-items-center my-5">
-            <div class="col-lg-6">
+            <div class="col-md-6  col-lg-6">
                 <h2 className="font-weight-bold  mb-4" style={{color: 'rgb(83, 83, 83)'}}>Media Temple Website &amp; Account Center</h2>
                 <p className="mb-5">
                     Principle front-end developer for Media Temple tasked to maintain and develop new features for the customer account center and marketing site. Some key projects included a <b className="stick-green">product wizard</b>, <b className="stick-green">one-click install</b> interface for popular web apps such as <b className="stick-green">WordPress</b> and <b className="stick-green">Drupal</b> and an inline <b className="stick-green">file editing web app</b>.
@@ -94,11 +94,11 @@ function Work() {
                     </span>
                 </a>
             </div>
-            <div class="col-lg-4">
+            <div class="col-md-6  col-lg-6 d-none  d-md-block">
                 <svg
                     xmlns="http://www.w3.org/2000/svg" 
                     version="1.1" 
-                    width="430px" 
+                    width="100%" 
                     height="430px" 
                     viewBox="0 0 480 480"
                     className="position-absolute" style={{zIndex: '1', top: '-13px', left: '3px'}}>
@@ -116,7 +116,7 @@ function Work() {
                 </svg>
                 <svg xmlns="http://www.w3.org/2000/svg" 
                 version="1.1" 
-                width="400px" 
+                width="100%" 
                 height="400px" 
                 viewBox="0 0 480 480" className="position-relative" style={{zIndex: '2'}}>
                 <defs>
@@ -142,7 +142,7 @@ function Work() {
         </div>
         <div className="container" style={{paddingTop: '125px'}}>
             <div className="row  justify-content-center  text-center" style={{marginBottom: '100px'}}>
-                <div className="col-lg-4 position-relative">
+                <div className="col-md-4  col-lg-4 position-relative  pb-5  pb-md-5  pb-lg-5">
                     <svg id="10015.io" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" className="mb-3  position-relative" style={{zIndex: '2'}}>
                         <defs>
                             <clipPath id="other-blob-1">
@@ -168,7 +168,7 @@ function Work() {
                         </span>
                     </a>
                 </div>
-                <div className="col-lg-4 position-relative">
+                <div className="col-md-4  col-lg-4 position-relative  pb-5  pb-md-5  pb-lg-5">
                     <svg id="10015.io" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" className="mb-3  position-relative" style={{zIndex: '2'}}>
                         <defs>
                             <clipPath id="other-blob-2">
@@ -183,7 +183,7 @@ function Work() {
                     <h3 className="font-weight-bold  mt-3" style={{color: 'rgb(83, 83, 83)'}}>Simpsons World</h3>
                     <p>Featured a custom 24/7 streaming player of every Simpsons episode ever.</p>
                 </div>
-                <div className="col-lg-4 position-relative">
+                <div className="col-md-4  col-lg-4 position-relative  pb-5  pb-md-5  pb-lg-5">
                     <svg id="10015.io" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" className="mb-3  position-relative" style={{zIndex: '2'}}>
                         <defs>
                             <clipPath id="other-blob-3">
@@ -211,7 +211,7 @@ function Work() {
                 </div>
             </div>
             <div className="row  justify-content-center  text-center">
-                <div className="col-lg-4 position-relative">
+                <div className="col-md-4  col-lg-4 position-relative  pb-5  pb-md-5  pb-lg-5">
                     <svg id="10015.io" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" className="mb-3  position-relative" style={{zIndex: '2'}}>
                         <defs>
                             <clipPath id="other-blob-4">
@@ -237,7 +237,7 @@ function Work() {
                         </span>
                     </a>
                 </div>
-                <div className="col-lg-4 position-relative">
+                <div className="col-md-4  col-lg-4 position-relative  pb-5  pb-md-5  pb-lg-5">
                     <svg id="10015.io" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" className="mb-3  position-relative" style={{zIndex: '2'}}>
                         <defs>
                             <clipPath id="other-blob-5">

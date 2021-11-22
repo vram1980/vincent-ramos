@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-width: fit-content;
 }
 
 a:hover {
@@ -153,4 +154,16 @@ code {
 }
 @supports (filter: url('#goo')) {
   transform: translateZ(0) scale(1.4);
+}
+
+@media (max-width: 415px) { 
+  .display-3 {
+    font-size: 3rem !important;
+    line-height: 3rem !important;
+  }
+  .Hero h4 {
+    font-size: 1.3rem !important;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
 }
