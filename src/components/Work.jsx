@@ -1,4 +1,9 @@
 import React from "react";
+const vans = require('./images/vans.png').default;
+const fx = require('./images/fx.png').default;
+const car = require('./images/car.png').default;
+const rh = require('./images/rh.png').default;
+const simp = require('./images/simp.png').default;
 
 function Work() {
     return (
@@ -146,12 +151,12 @@ function Work() {
                                 <path fill="#474bff" d="M455,292Q437,344,400,381Q363,418,315.5,442.5Q268,467,215,456Q162,445,116,417.5Q70,390,44,342.5Q18,295,20,240.5Q22,186,46.5,138Q71,90,115,58.5Q159,27,213.5,16.5Q268,6,321.5,25.5Q375,45,404,92Q433,139,453,189.5Q473,240,455,292Z" />
                             </clipPath>
                         </defs>
-                        <image x="0" y="0" width="100%" height="100%" clip-path="url(#other-blob-1)" xlinkHref="https://source.unsplash.com/random/600x600/?landscape" preserveAspectRatio="xMidYMid slice"></image>
+                        <image x="0" y="0" width="100%" height="100%" clip-path="url(#other-blob-1)" xlinkHref={vans} preserveAspectRatio="xMidYMid slice"></image>
                     </svg>
                     <svg viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" className="position-absolute" style={{zIndex: '1', stroke: '#a4d4b4', strokeWidth: '3px', top: '-15px', left: '0px'}}>
 	                    <path fill="#fff" d="M455,292Q437,344,400,381Q363,418,315.5,442.5Q268,467,215,456Q162,445,116,417.5Q70,390,44,342.5Q18,295,20,240.5Q22,186,46.5,138Q71,90,115,58.5Q159,27,213.5,16.5Q268,6,321.5,25.5Q375,45,404,92Q433,139,453,189.5Q473,240,455,292Z" />
                     </svg>
-                    <h3 className="font-weight-bold  mb-4" style={{color: 'rgb(83, 83, 83)'}}>Something</h3>
+                    <h3 className="font-weight-bold  mt-3" style={{color: 'rgb(83, 83, 83)'}}>Vans</h3>
                     <p>Lorem ipsum dolor sit amet consectetur</p>
                 </div>
                 <div className="col-lg-4 position-relative">
@@ -161,12 +166,12 @@ function Work() {
                                 <path fill="#474bff" d="M455.5,292Q438,344,407,390.5Q376,437,321.5,451.5Q267,466,212.5,461Q158,456,112,425Q66,394,42,344.5Q18,295,22.5,241Q27,187,49.5,139Q72,91,114.5,56Q157,21,212.5,16.5Q268,12,319,32Q370,52,411,90.5Q452,129,462.5,184.5Q473,240,455.5,292Z" />
                             </clipPath>
                         </defs>
-                        <image x="0" y="0" width="100%" height="100%" clip-path="url(#other-blob-2)" xlinkHref="https://source.unsplash.com/random/600x600/?landscape" preserveAspectRatio="xMidYMid slice"></image>
+                        <image x="0" y="0" width="100%" height="100%" clip-path="url(#other-blob-2)" xlinkHref={simp} preserveAspectRatio="xMidYMid slice"></image>
                     </svg>
                     <svg viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" className="position-absolute" style={{zIndex: '1', stroke: '#a4d4b4', strokeWidth: '3px', top: '-15px', left: '0px'}}>
 	                    <path fill="#fff" d="M455.5,292Q438,344,407,390.5Q376,437,321.5,451.5Q267,466,212.5,461Q158,456,112,425Q66,394,42,344.5Q18,295,22.5,241Q27,187,49.5,139Q72,91,114.5,56Q157,21,212.5,16.5Q268,12,319,32Q370,52,411,90.5Q452,129,462.5,184.5Q473,240,455.5,292Z" />
                     </svg>
-                    <h3 className="font-weight-bold  mb-4" style={{color: 'rgb(83, 83, 83)'}}>Something</h3>
+                    <h3 className="font-weight-bold  mt-3" style={{color: 'rgb(83, 83, 83)'}}>Simpsons World</h3>
                     <p>Lorem ipsum dolor sit amet consectetur</p>
                 </div>
                 <div className="col-lg-4 position-relative">
@@ -176,12 +181,12 @@ function Work() {
                                 <path fill="#474bff" d="M447.5,290.5Q432,341,398.5,381Q365,421,316.5,446Q268,471,214.5,460Q161,449,115.5,420Q70,391,39.5,344Q9,297,9.5,240Q10,183,42,138Q74,93,117,61.5Q160,30,213.5,23Q267,16,318,34.5Q369,53,406,93.5Q443,134,453,187Q463,240,447.5,290.5Z" />
                             </clipPath>
                         </defs>
-                        <image x="0" y="0" width="100%" height="100%" clip-path="url(#other-blob-3)" xlinkHref="https://source.unsplash.com/random/600x600/?landscape" preserveAspectRatio="xMidYMid slice"></image>
+                        <image x="0" y="0" width="100%" height="100%" clip-path="url(#other-blob-3)" xlinkHref={car} preserveAspectRatio="xMidYMid slice"></image>
                     </svg>
                     <svg viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" className="position-absolute" style={{zIndex: '1', stroke: '#a4d4b4', strokeWidth: '3px', top: '-15px', left: '0px'}}>
 	                    <path fill="#fff" d="M447.5,290.5Q432,341,398.5,381Q365,421,316.5,446Q268,471,214.5,460Q161,449,115.5,420Q70,391,39.5,344Q9,297,9.5,240Q10,183,42,138Q74,93,117,61.5Q160,30,213.5,23Q267,16,318,34.5Q369,53,406,93.5Q443,134,453,187Q463,240,447.5,290.5Z" />
                     </svg>
-                    <h3 className="font-weight-bold  mb-4" style={{color: 'rgb(83, 83, 83)'}}>Something</h3>
+                    <h3 className="font-weight-bold  mt-3" style={{color: 'rgb(83, 83, 83)'}}>Lexus</h3>
                     <p>Lorem ipsum dolor sit amet consectetur</p>
                 </div>
             </div>
@@ -193,12 +198,12 @@ function Work() {
                                 <path fill="#474bff" d="M461.5,294.5Q448,349,412,393Q376,437,321.5,450.5Q267,464,213.5,457.5Q160,451,114.5,421Q69,391,42,343Q15,295,16,240Q17,185,43.5,137Q70,89,116.5,62.5Q163,36,215,27Q267,18,321,31.5Q375,45,403.5,92Q432,139,453.5,189.5Q475,240,461.5,294.5Z" />
                             </clipPath>
                         </defs>
-                        <image x="0" y="0" width="100%" height="100%" clip-path="url(#other-blob-4)" xlinkHref="https://source.unsplash.com/random/600x600/?landscape" preserveAspectRatio="xMidYMid slice"></image>
+                        <image x="0" y="0" width="100%" height="100%" clip-path="url(#other-blob-4)" xlinkHref={fx} preserveAspectRatio="xMidYMid slice"></image>
                     </svg>
                     <svg viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" className="position-absolute" style={{zIndex: '1', stroke: '#a4d4b4', strokeWidth: '3px', top: '-15px', left: '0px'}}>
 	                    <path fill="#fff" d="M461.5,294.5Q448,349,412,393Q376,437,321.5,450.5Q267,464,213.5,457.5Q160,451,114.5,421Q69,391,42,343Q15,295,16,240Q17,185,43.5,137Q70,89,116.5,62.5Q163,36,215,27Q267,18,321,31.5Q375,45,403.5,92Q432,139,453.5,189.5Q475,240,461.5,294.5Z" />
                     </svg>
-                    <h3 className="font-weight-bold  mb-4" style={{color: 'rgb(83, 83, 83)'}}>Something</h3>
+                    <h3 className="font-weight-bold  mt-3" style={{color: 'rgb(83, 83, 83)'}}>FX Network</h3>
                     <p>Lorem ipsum dolor sit amet consectetur</p>
                 </div>
                 <div className="col-lg-4 position-relative">
@@ -208,12 +213,12 @@ function Work() {
                                 <path fill="#474bff" d="M452.5,290.5Q432,341,401.5,385.5Q371,430,318.5,444Q266,458,214,452Q162,446,115,419.5Q68,393,40.5,344.5Q13,296,13.5,240Q14,184,40,135Q66,86,111,52.5Q156,19,212,14Q268,9,316,35Q364,61,401,98.5Q438,136,455.5,188Q473,240,452.5,290.5Z" />
                             </clipPath>
                         </defs>
-                        <image x="0" y="0" width="100%" height="100%" clip-path="url(#other-blob-5)" xlinkHref="https://source.unsplash.com/random/600x600/?landscape" preserveAspectRatio="xMidYMid slice"></image>
+                        <image x="0" y="0" width="100%" height="100%" clip-path="url(#other-blob-5)" xlinkHref={rh} preserveAspectRatio="xMidYMid slice"></image>
                     </svg>
                     <svg viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" className="position-absolute" style={{zIndex: '1', stroke: '#a4d4b4', strokeWidth: '3px', top: '-15px', left: '0px'}}>
 	                    <path fill="#fff" d="M452.5,290.5Q432,341,401.5,385.5Q371,430,318.5,444Q266,458,214,452Q162,446,115,419.5Q68,393,40.5,344.5Q13,296,13.5,240Q14,184,40,135Q66,86,111,52.5Q156,19,212,14Q268,9,316,35Q364,61,401,98.5Q438,136,455.5,188Q473,240,452.5,290.5Z" />
                     </svg>
-                    <h3 className="font-weight-bold  mb-4" style={{color: 'rgb(83, 83, 83)'}}>Something</h3>
+                    <h3 className="font-weight-bold  mt-3" style={{color: 'rgb(83, 83, 83)'}}>Restoration Hardware</h3>
                     <p>Lorem ipsum dolor sit amet consectetur</p>
                 </div>
             </div>
