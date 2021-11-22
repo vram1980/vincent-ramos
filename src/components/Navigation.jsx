@@ -1,6 +1,18 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 const resume = require('./images/vincent-resume-2021.pdf').default;
+const navData = [
+    { 
+        id: 1, 
+        label: 'Home',
+        url: '/'
+    },
+    { 
+        id: 2, 
+        label: 'About',
+        url: '/about'
+    }
+  ];
 function Navigation() {
   return (
     <div className="container-fluid" style={{ position: "absolute", top: "0" }}>
@@ -11,30 +23,19 @@ function Navigation() {
                 </NavLink>
             </div>
             <div className="col-md-8  col-lg-6 text-right  pt-4  pt-md-5  pr-md-4  pt-lg-5  pr-lg-5">
-                <NavLink to="/" className="blob-btn  mr-3  text-capitalize">
-                    Home
-                    <span class="blob-btn__inner">
-                    <span class="blob-btn__blobs">
-                        <span class="blob-btn__blob"></span>
-                        <span class="blob-btn__blob"></span>
-                        <span class="blob-btn__blob"></span>
-                        <span class="blob-btn__blob"></span>
-                    </span>
-                    </span>
-                </NavLink>
-
-                <NavLink to="/about" className="blob-btn  mr-3  text-capitalize">
-                    About
-                    <span class="blob-btn__inner">
-                    <span class="blob-btn__blobs">
-                        <span class="blob-btn__blob"></span>
-                        <span class="blob-btn__blob"></span>
-                        <span class="blob-btn__blob"></span>
-                        <span class="blob-btn__blob"></span>
-                    </span>
-                    </span>
-                </NavLink>
-
+                {navData.map((item) => (
+                    <NavLink to={item.url} className="blob-btn  mr-3  text-capitalize">
+                        {item.label}
+                        <span class="blob-btn__inner">
+                        <span class="blob-btn__blobs">
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                        </span>
+                        </span>
+                    </NavLink>
+                ))}
                 <a className="blob-btn  text-capitalize" href={resume} target="_blank" rel="noreferrer">
                     Resume
                     <span class="blob-btn__inner">
