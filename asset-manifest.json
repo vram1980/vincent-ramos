@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/vincent-ramos/static/css/main.446ad7e0.chunk.css",
-    "main.js": "/vincent-ramos/static/js/main.123795fc.chunk.js",
-    "main.js.map": "/vincent-ramos/static/js/main.123795fc.chunk.js.map",
+    "main.css": "/vincent-ramos/static/css/main.e38bd5b1.chunk.css",
+    "main.js": "/vincent-ramos/static/js/main.74529a56.chunk.js",
+    "main.js.map": "/vincent-ramos/static/js/main.74529a56.chunk.js.map",
     "runtime-main.js": "/vincent-ramos/static/js/runtime-main.b60936ea.js",
     "runtime-main.js.map": "/vincent-ramos/static/js/runtime-main.b60936ea.js.map",
     "static/js/2.40e789b3.chunk.js": "/vincent-ramos/static/js/2.40e789b3.chunk.js",
     "static/js/2.40e789b3.chunk.js.map": "/vincent-ramos/static/js/2.40e789b3.chunk.js.map",
     "index.html": "/vincent-ramos/index.html",
-    "static/css/main.446ad7e0.chunk.css.map": "/vincent-ramos/static/css/main.446ad7e0.chunk.css.map",
+    "static/css/main.e38bd5b1.chunk.css.map": "/vincent-ramos/static/css/main.e38bd5b1.chunk.css.map",
     "static/js/2.40e789b3.chunk.js.LICENSE.txt": "/vincent-ramos/static/js/2.40e789b3.chunk.js.LICENSE.txt",
+    "static/media/bb-website.jpg": "/vincent-ramos/static/media/bb-website.fa90b762.jpg",
     "static/media/car.png": "/vincent-ramos/static/media/car.d0f52738.png",
     "static/media/fx.png": "/vincent-ramos/static/media/fx.de00706d.png",
+    "static/media/mt.jpg": "/vincent-ramos/static/media/mt.052beef7.jpg",
     "static/media/rh.png": "/vincent-ramos/static/media/rh.84e8eb02.png",
     "static/media/simp.png": "/vincent-ramos/static/media/simp.61facd28.png",
     "static/media/vans.png": "/vincent-ramos/static/media/vans.b3eb6824.png"
@@ -19,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.b60936ea.js",
     "static/js/2.40e789b3.chunk.js",
-    "static/css/main.446ad7e0.chunk.css",
-    "static/js/main.123795fc.chunk.js"
+    "static/css/main.e38bd5b1.chunk.css",
+    "static/js/main.74529a56.chunk.js"
   ]
 }
