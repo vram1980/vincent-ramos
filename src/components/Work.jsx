@@ -157,7 +157,18 @@ function Work() {
 	                    <path fill="#fff" d="M455,292Q437,344,400,381Q363,418,315.5,442.5Q268,467,215,456Q162,445,116,417.5Q70,390,44,342.5Q18,295,20,240.5Q22,186,46.5,138Q71,90,115,58.5Q159,27,213.5,16.5Q268,6,321.5,25.5Q375,45,404,92Q433,139,453,189.5Q473,240,455,292Z" />
                     </svg>
                     <h3 className="font-weight-bold  mt-3" style={{color: 'rgb(83, 83, 83)'}}>Vans</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <p className={'mb-5'}>Lead front-end developer for vans.com redesign.</p>
+                    <a href="https://www.vans.com/" className="blob-btn  dark  text-capitalize" target="_blank" rel="noreferrer">
+                    Launch
+                        <span class="blob-btn__inner">
+                        <span class="blob-btn__blobs">
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                        </span>
+                        </span>
+                    </a>
                 </div>
                 <div className="col-lg-4 position-relative">
                     <svg id="10015.io" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" className="mb-3  position-relative" style={{zIndex: '2'}}>
@@ -172,7 +183,7 @@ function Work() {
 	                    <path fill="#fff" d="M455.5,292Q438,344,407,390.5Q376,437,321.5,451.5Q267,466,212.5,461Q158,456,112,425Q66,394,42,344.5Q18,295,22.5,241Q27,187,49.5,139Q72,91,114.5,56Q157,21,212.5,16.5Q268,12,319,32Q370,52,411,90.5Q452,129,462.5,184.5Q473,240,455.5,292Z" />
                     </svg>
                     <h3 className="font-weight-bold  mt-3" style={{color: 'rgb(83, 83, 83)'}}>Simpsons World</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <p>Featured a custom 24/7 streaming player of every Simpsons episode ever.</p>
                 </div>
                 <div className="col-lg-4 position-relative">
                     <svg id="10015.io" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" className="mb-3  position-relative" style={{zIndex: '2'}}>
@@ -187,7 +198,18 @@ function Work() {
 	                    <path fill="#fff" d="M447.5,290.5Q432,341,398.5,381Q365,421,316.5,446Q268,471,214.5,460Q161,449,115.5,420Q70,391,39.5,344Q9,297,9.5,240Q10,183,42,138Q74,93,117,61.5Q160,30,213.5,23Q267,16,318,34.5Q369,53,406,93.5Q443,134,453,187Q463,240,447.5,290.5Z" />
                     </svg>
                     <h3 className="font-weight-bold  mt-3" style={{color: 'rgb(83, 83, 83)'}}>Lexus</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <p className={'mb-5'}>Managed asset loading for large site. Increased performance by 30%.</p>
+                    <a href="https://www.lexus.com/" className="blob-btn  dark  text-capitalize" target="_blank" rel="noreferrer">
+                    Launch
+                        <span class="blob-btn__inner">
+                        <span class="blob-btn__blobs">
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                        </span>
+                        </span>
+                    </a>
                 </div>
             </div>
             <div className="row  justify-content-center  text-center">
@@ -204,7 +226,18 @@ function Work() {
 	                    <path fill="#fff" d="M461.5,294.5Q448,349,412,393Q376,437,321.5,450.5Q267,464,213.5,457.5Q160,451,114.5,421Q69,391,42,343Q15,295,16,240Q17,185,43.5,137Q70,89,116.5,62.5Q163,36,215,27Q267,18,321,31.5Q375,45,403.5,92Q432,139,453.5,189.5Q475,240,461.5,294.5Z" />
                     </svg>
                     <h3 className="font-weight-bold  mt-3" style={{color: 'rgb(83, 83, 83)'}}>FX Network</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <p className={'mb-5'}>Front-end developer for FX redesign. Responsive and SSO integration.</p>
+                    <a href="https://www.fxnetworks.com/" className="blob-btn  dark  text-capitalize" target="_blank" rel="noreferrer">
+                    Launch
+                        <span class="blob-btn__inner">
+                        <span class="blob-btn__blobs">
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                        </span>
+                        </span>
+                    </a>
                 </div>
                 <div className="col-lg-4 position-relative">
                     <svg id="10015.io" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" className="mb-3  position-relative" style={{zIndex: '2'}}>
@@ -219,7 +252,18 @@ function Work() {
 	                    <path fill="#fff" d="M452.5,290.5Q432,341,401.5,385.5Q371,430,318.5,444Q266,458,214,452Q162,446,115,419.5Q68,393,40.5,344.5Q13,296,13.5,240Q14,184,40,135Q66,86,111,52.5Q156,19,212,14Q268,9,316,35Q364,61,401,98.5Q438,136,455.5,188Q473,240,452.5,290.5Z" />
                     </svg>
                     <h3 className="font-weight-bold  mt-3" style={{color: 'rgb(83, 83, 83)'}}>Restoration Hardware</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <p className={'mb-5'}>Cross-browser development. Focused on compatabilty all the way down to IE6.</p>
+                    <a href="https://rh.com/" className="blob-btn  dark  text-capitalize" target="_blank" rel="noreferrer">
+                    Launch
+                        <span class="blob-btn__inner">
+                        <span class="blob-btn__blobs">
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                            <span class="blob-btn__blob"></span>
+                        </span>
+                        </span>
+                    </a>
                 </div>
             </div>
         </div>
